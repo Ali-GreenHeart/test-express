@@ -44,7 +44,7 @@ app.get('*', async (req, res) => {
     res.end(content)
 })
 
-app.listen(3000, () => {
+app.listen(10000, () => {
     console.log(`3000de gozleyirem yolunu....`)
 })
 
