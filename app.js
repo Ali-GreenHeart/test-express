@@ -39,11 +39,6 @@ app.delete("/users/:id", (req, res) => {
     return res.end("User deleted successfully!")
 })
 
-app.get('*', async (req, res) => {
-    const content = await readFile("./pages/notfound.html")
-    res.end(content)
-})
-
 app.listen(10000, () => {
     console.log(`10000de gozleyirem yolunu....`)
 })
