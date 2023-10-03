@@ -1,5 +1,4 @@
 import express from "express";
-import { readFile } from "fs/promises";
 import users from "./data.js";
 
 const app = express()
