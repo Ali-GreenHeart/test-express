@@ -45,6 +45,6 @@ app.get('*', async (req, res) => {
 })
 
 app.listen(10000, () => {
-    console.log(`3000de gozleyirem yolunu....`)
+    console.log(`10000de gozleyirem yolunu....`)
 })
 
